@@ -1,3 +1,30 @@
+#pasos de desploy de Firebase
+1- installar
+        npm install -g firebase-tools
+2- autenticarse con su usuario
+        firebase login 
+        // firebase logout
+
+3- firebase init   //inicalizo todo el project con firebase
+
+4- con las flechas del teclado me muevo y selecciono con la tecla espaciadora
+
+5-selecciono el hosting
+
+6- selecciono el projecto dentro del cual estoy trabajando para mi caso seria plantasf11
+
+7- dist y presiono yes / se debe crear la carpeta ay como no la voy usaar la puedo borrar
+
+8- build yo verifique que se creo
+
+9- npm build ó npm run build 
+
+10- firebase deploy
+
+11- por consola debe salir una url y ese es mi despliegue
+
+
+
 # Pasos
  Maquetacion - cuando ya este capturando la informacion por consola
  - realizo proceso sinconico con redux

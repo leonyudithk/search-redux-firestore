@@ -6,6 +6,8 @@ export const typesLogin = {
 
 export const typesPlantas ={
         add: 'agregar Plantas',
+        list: 'lista de Plantas',
+        search: 'Buscar por nombre'
        
         
 }

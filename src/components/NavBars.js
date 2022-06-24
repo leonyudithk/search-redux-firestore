@@ -19,6 +19,7 @@ const NavBars = () => {
             <Nav.Link ><Link to="/register" style={{color: "green"}} >Register</Link></Nav.Link>
             <Nav.Link ><Link to="/" style={{color: "green"}} >login</Link></Nav.Link>
             <Nav.Link ><Link to="/api" style={{color: "green"}} >Api</Link></Nav.Link>
+            <Nav.Link ><Link to="/search" style={{color: "green"}} >Buscar</Link></Nav.Link>
            </Nav>
         </Container>
         <Nav>

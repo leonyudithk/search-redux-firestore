@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import ListarPlantas from './ListarPlanta';
+import ListarPlanta from './ListarPlanta';
+
 
 const Home = () => {
 
@@ -36,7 +37,7 @@ const Home = () => {
                    
                 </Carousel.Item>
             </Carousel>
-
+            <ListarPlanta/>
         </div>
     );
 };

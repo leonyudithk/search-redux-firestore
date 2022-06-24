@@ -8,6 +8,7 @@ import Login from '../components/Login';
 import NavBars from '../components/NavBars';
 import RegisterUser from '../components/RegisterUser';
 import RickandMorty from '../components/RickandMorty';
+import Search from '../components/Search';
 
 
 const AppRouters = () => {
@@ -22,6 +23,7 @@ const AppRouters = () => {
                     <Route path="/api" element={<RickandMorty/>} />
                     <Route path="/agregar" element={<AgregarPlantas/>} />
                     <Route path="/listar" element={<ListarPlantas/>} />
+                    <Route path="/search" element={<Search/>} />
             </Routes>
         </BrowserRouter>
     );

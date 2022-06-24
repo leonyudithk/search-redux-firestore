@@ -10,8 +10,14 @@ export const plantasReducers =(state = initialState, action)=>{
             return{
                      planta : [action.payload]
             }
-          
-                   
+         case typesPlantas.list:
+                return{
+                         planta : [...action.payload]
+                }  
+                case typesPlantas.search:
+                    return{
+                             planta : action.payload
+                    }      
     
         default:
            return state
